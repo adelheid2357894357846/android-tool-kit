@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows10.0.19041.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="adb.exe" />
+    <None Remove="AdbWinApi.dll" />
+    <None Remove="AdbWinUsbApi.dll" />
+    <None Remove="fastboot.exe" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="adb.exe" />
+    <EmbeddedResource Include="AdbWinApi.dll" />
+    <EmbeddedResource Include="AdbWinUsbApi.dll" />
+    <EmbeddedResource Include="fastboot.exe" />
+  </ItemGroup>
+
+</Project>

@@ -16,7 +16,7 @@
 ### Prerequisites
 
 - **.NET Framework**: Ensure you have the .NET Framework installed on your system. The application is compatible with .NET Framework 4.8 or later.
-- **ADB**: Android Debug Bridge (ADB) is included in the toolkit. Ensure that it is properly set up on your system.
+- **ADB**: Android Debug Bridge (ADB) is included in the toolkit. You don't have to do anything.
 
 ### Building the Project
 
@@ -41,7 +41,7 @@ Running the Application
 
 Usage
 
-    Info Command: Type info in the command box to get details about the toolkit’s features and usage instructions.
+    Info Command: Type info in the command box to get details about the toolkitâ€™s features and usage instructions.
     Shell Command: Type shell to enter ADB shell mode and execute shell commands on the connected Android device.
 
 Contributing
